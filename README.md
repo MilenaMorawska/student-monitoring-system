@@ -1,9 +1,52 @@
 # student-monitoring-system
 
+A modular, Jupyter Notebook–based application for analysing student performance data, identifying underperforming students, and managing test results using structured CSV inputs.
 
+---
+## About The Project
 
-GENERAL USAGE
---------------
+The **Student Monitoring System** is designed to process and analyse student test result data from CSV files.  
+It provides tools for evaluating student performance, identifying underperforming students, and supporting academic monitoring through a simple interactive interface.
+
+The system is intended for use within a **Jupyter Notebook environment**, using interactive widgets for menu navigation.
+
+---
+
+## Features
+
+- Load and process student test result CSV files
+- Analyse overall student performance
+- Identify underperforming students
+- Modular system design for scalability
+- Interactive Jupyter Notebook menu (ipywidgets)
+- Error handling for missing or invalid data files
+
+---
+
+## Built With
+
+- Python 3
+- Jupyter Notebook
+- ipywidgets
+- IPython display
+- Pandas 
+
+## Installation
+
+1) Clone the repository
+```bash 
+git clone https://github.com/your-username/student-monitoring-system.git
+```
+3) Navigate into the project folder
+cd student-monitoring-system
+
+4) Launch Jupyter Notebook
+jupyter notebook
+
+5) Open the main notebook file and run the cells
+
+---
+## GENERAL USAGE
 
 This application is intended to be run within a Jupyter Notebook environment.
 The interactive menu relies on ipywidgets and IPython display features.
@@ -14,16 +57,3 @@ Before running the menu:
 - Ensure all Python modules (CWPreprocessing.py, testResults.py,
   studentPerformance.py, underPerforming.py) are in the same directory as the notebook.
 
-
-OPTIMISATIONS
---------------
-
-The system is designed using a modular class-based structure, which improves
-maintainability and readability by separating different responsibilities into
-dedicated manager classes.
-
-Error handling is implemented to prevent the interface from crashing when required
-CSV files are missing.
-
-Database queries retrieve only the required data, reducing unnecessary processing
-overhead.
