@@ -1,11 +1,11 @@
 # student-monitoring-system
 
-Module: 25COP504 – Programming Fundamentals
+
 
 GENERAL USAGE
 --------------
 
-This applicaTion is intended to be run within a Jupyter Notebook environment.
+This application is intended to be run within a Jupyter Notebook environment.
 The interactive menu relies on ipywidgets and IPython display features.
 
 Before running the menu:
