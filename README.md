@@ -48,7 +48,7 @@ All project dependencies are provided in the `requirements.txt` file
 git clone https://github.com/MilenaMorawska/student-monitoring-system.git
 cd student-monitoring-system
 ```
-2)Install the required dependencies:
+2) Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
