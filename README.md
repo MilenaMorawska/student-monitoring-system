@@ -23,30 +23,35 @@ The system is intended for use within a **Jupyter Notebook environment**, using 
 
 ---
 
-## Built With
-
-- Python 3
-- Jupyter Notebook
-- ipywidgets
-- IPython display
-- Pandas 
-
 ## Installation
 
-1) Clone the repository
-```bash 
-git clone https://github.com/your-username/student-monitoring-system.git](https://github.com/MilenaMorawska/student-monitoring-system.git
-```
-2) Navigate into the project folder
+1) Clone the repository:
+
+```bash
+git clone https://github.com/MilenaMorawska/student-monitoring-system.git
 cd student-monitoring-system
+```
 
-3) Launch Jupyter Notebook
+2) Create the Conda environment:
+
+```bash
+conda env create -f environment.yml
+```
+
+3) Activate the environment:
+
+```bash
+conda activate cop504cw
+```
+
+4) Launch Jupyter Notebook:
+
+```bash
 jupyter notebook
-
-5) Open the main notebook file and run the cells
+```
 
 ---
-## GENERAL USAGE
+## General usage
 
 This application is intended to be run within a Jupyter Notebook environment.
 The interactive menu relies on ipywidgets and IPython display features.
