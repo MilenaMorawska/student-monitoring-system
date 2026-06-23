@@ -1,0 +1,7 @@
+pandas
+ipython
+notebook==6.*
+ipywidgets
+graphviz
+matplotlib
+
