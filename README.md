@@ -1,14 +1,17 @@
-# student-monitoring-system
+# Student Monitoring System
 
-A modular, Jupyter Notebook–based application for analysing student performance data, identifying underperforming students, and managing test results using structured CSV inputs.
+## Author
+
+Milena Morawska
+
+GitHub: https://github.com/MilenaMorawska
 
 ---
-## About The Project
-
+## Overview
 The **Student Monitoring System** is designed to process and analyse student test result data from CSV files.  
 It provides tools for evaluating student performance, identifying underperforming students, and supporting academic monitoring through a simple interactive interface.
 
-The system is intended for use within a **Jupyter Notebook environment**, using interactive widgets for menu navigation.
+The system is intended for use within a Jupyter Notebook environment, using interactive widgets for menu navigation.
 
 ---
 
@@ -23,6 +26,20 @@ The system is intended for use within a **Jupyter Notebook environment**, using 
 
 ---
 
+## Requirements
+
+All project dependencies are provided in the `requirements.txt` file 
+
+- Python 3.12
+- pandas
+- IPython
+- Jupyter Notebook 6
+- ipywidgets
+- Graphviz (python-graphviz)
+- matplotlib
+
+---
+
 ## Installation
 
 1) Clone the repository:
@@ -31,20 +48,12 @@ The system is intended for use within a **Jupyter Notebook environment**, using 
 git clone https://github.com/MilenaMorawska/student-monitoring-system.git
 cd student-monitoring-system
 ```
-
-2) Create the Conda environment:
-
-```bash
-conda env create -f environment.yml
-```
-
-3) Activate the environment:
+2)Install the required dependencies:
 
 ```bash
-conda activate cop504cw
+pip install -r requirements.txt
 ```
-
-4) Launch Jupyter Notebook:
+3) Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
