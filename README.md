@@ -35,12 +35,12 @@ The system is intended for use within a **Jupyter Notebook environment**, using 
 
 1) Clone the repository
 ```bash 
-git clone https://github.com/your-username/student-monitoring-system.git
+git clone https://github.com/your-username/student-monitoring-system.git](https://github.com/MilenaMorawska/student-monitoring-system.git
 ```
-3) Navigate into the project folder
+2) Navigate into the project folder
 cd student-monitoring-system
 
-4) Launch Jupyter Notebook
+3) Launch Jupyter Notebook
 jupyter notebook
 
 5) Open the main notebook file and run the cells
